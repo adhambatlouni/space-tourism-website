@@ -435,6 +435,9 @@ select {
     background-color: hsl( var(--clr-white) / 1); 
 }
 
+.number-indicators {
+    gap: 0.5rem;  
+}
 .number-indicators > * {
     cursor: pointer;
     border: 0;
@@ -444,6 +447,12 @@ select {
     background-color: transparent;
     border: 1px solid hsl( var(--clr-white) / .5);
     border-radius: 50%;
+}
+
+@media(max-width: 35em) {
+    .number-indicators > * {
+        font-size: var(--fs-700);
+    }    
 }
 
 .number-indicators > *:hover,
@@ -747,13 +756,6 @@ body {
 
 }
 
-
-@media (max-width: 35em) {
-
-    .number-bar{
-        flex-direction: row;
-    }
-}
 
 
 
