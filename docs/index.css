@@ -229,6 +229,7 @@ select {
     font-size: var(--fs-500);
     text-transform: uppercase;
     letter-spacing: 4.72px; 
+    align-self: center;
 }
 
 .numbered-title span {
