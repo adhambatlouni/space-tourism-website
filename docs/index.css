@@ -514,6 +514,7 @@ body {
     }
 
     .technology{
+        background-position: center center;
         background-image: url(./assets/technology/background-technology-tablet.jpg);
     }
 }
@@ -729,15 +730,6 @@ body {
         flex-direction: column;
     }
 
-    .technology-details-h2 {
-        font-size:var(--fs-400);
-    }
-
-    .technology-details-p2 { 
-        padding-inline: 1.5rem;
-        max-width: 80%;
-    }
-
     #vehicle-image{
         content: url(./assets/technology/image-launch-vehicle-portrait.jpg);
     }
@@ -753,23 +745,7 @@ body {
 }
 
 
-.technology-details h2 {
-    color: hsl( var(--clr-white) / .5);
-}
-
-
 @media (max-width: 35em) {
-    .technology-details-h2{
-        font-size:var(--fs-700);
-    }
-
-    .technology-details-p1{
-        font-size:2.5rem;
-    }
-
-    .technology-details-p2{
-        font-size:1.25rem;
-    }
 
     .number-bar{
         flex-direction: row;
