@@ -452,6 +452,8 @@ select {
 @media(max-width: 35em) {
     .number-indicators > * {
         font-size: var(--fs-700);
+        width: 60px;
+        height:60px;
     }    
 }
 
